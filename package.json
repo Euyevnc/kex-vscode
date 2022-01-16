@@ -1,0 +1,25 @@
+{
+    "name": "vscode-kex",
+    "displayName": "vscode-kex",
+    "description": "Templating lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "kex",
+            "aliases": ["kex", "kex"],
+            "extensions": ["kex"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "kex",
+            "scopeName": "",
+            "path": "./syntaxes/kex.tmLanguage.json"
+        }]
+    }
+}
