@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "kex",
-            "scopeName": "",
+            "scopeName": "kex",
             "path": "./syntaxes/kex.tmLanguage.json"
         }]
     }
